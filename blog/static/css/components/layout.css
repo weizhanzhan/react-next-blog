@@ -1,0 +1,17 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: #f4f5f5;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    width: 960px;
+}
+.main{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    width: 100%;
+
+}

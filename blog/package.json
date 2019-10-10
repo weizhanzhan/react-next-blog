@@ -1,0 +1,19 @@
+{
+  "name": "next-app-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "follow-redirects": "^1.9.0",
+    "hydrogen-js-sdk": "^2.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.0.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
+}

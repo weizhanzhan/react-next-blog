@@ -1,0 +1,109 @@
+.main-header-box{
+    position: relative;
+    height: 60px;
+  }
+  .main-header{
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    color: #909090;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .2s;
+  }
+  .logo{
+    min-width: 98px;
+    margin-right: 30px;
+  }
+  .logo img{
+    width:90px;
+    height:30px;
+    vertical-align: middle;
+  }
+  .main-header .container{
+    width: 960px;
+    margin: auto;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .main-nav{
+    height:100%;
+    width:100%
+  }
+  .nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 100%;
+    margin: 0;
+  }
+  .main-nav-list{
+    display: flex;
+  }
+  .phone-hide{
+    display: flex;
+  }
+  .nav-item{
+    color: #71777c;
+    padding: 0 17px;
+    font-size: 15px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav-item.link-item{
+    padding: 0 17px;
+    height: 60px;
+  }
+  .nav-item.search{
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    cursor: auto;
+  }
+  .search-form{
+    border: 1px solid hsla(0,0%,59.2%,.2);
+    background-color: rgba(227,231,236,.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+  }
+  .search-form .search-input{
+    border: none;
+    width: 156px;
+    padding: 6px 15px;
+    box-shadow: none;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+    background-color: transparent;
+  }
+  [type=search]{
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  .search-form .search-icon{
+    padding: 0 8px;
+    cursor: pointer;
+  }
+  input::-webkit-search-cancel-button{
+    display: none;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .route-active{
+    position:relative
+  }

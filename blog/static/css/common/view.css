@@ -1,0 +1,20 @@
+.main-view{
+
+}
+.main-view-context{
+    display: flex;
+    align-items: flex-start;
+}
+.main-list-view{
+    overflow: hidden;
+    flex-grow: 1;
+    height: 400px;
+    background: #ffffff
+}
+.main-aside-view{
+    width: 240px;
+    min-width: 240px;
+    margin-left: 20px;
+    height: 400px;
+    background: #ffffff
+}
