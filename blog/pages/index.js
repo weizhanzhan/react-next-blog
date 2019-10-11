@@ -1,17 +1,18 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import BlogList from '../components/BlogList'
 import '../static/css/common/view.css'
 // import Bmob from "hydrogen-js-sdk";
 import fetch from 'isomorphic-unfetch';
 const Home = (props) => {
-  console.log(props)
+  
   return  (
     <div>
       <Layout title={'Home'}>
         <div className="main-view">
           <div className="main-view-context">
             <div className="main-list-view">
-              1
+              <BlogList blogs={props.data.blogs}/>
             </div>
             <aside className="main-aside-view">
               2
@@ -29,6 +30,7 @@ Home.getInitialProps = async ({ req }) => {
   // const query = Bmob.Query('Blogs');
   // query.limit(10)
   // const res = await query.find() 
+
   return { data: json }
 }
 
